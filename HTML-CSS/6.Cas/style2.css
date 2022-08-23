@@ -1,0 +1,29 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div1 {
+  background-color: darkgrey;
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  text-align: center;
+}
+
+.div2 {
+  background-color: burlywood;
+  width: 300px;
+  height: 250px;
+  overflow: auto;
+  text-align: center;
+}
+
+.div2 p {
+  font-size: 22px;
+  text-align: justify;
+  text-align-last: right;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

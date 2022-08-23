@@ -1,0 +1,68 @@
+.kerim {
+  width: 400px;
+  height: 600px;
+  margin: 15px;
+  background-color: #46bd5eec;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  display: inline-block;
+}
+
+.kerim img {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.kerim h1 {
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 13px;
+}
+
+.kerim h3 {
+  text-transform: capitalize;
+  margin: 20px;
+  color: white;
+}
+
+.kerim p {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 15px;
+  text-align: justify;
+  text-indent: 20px;
+  text-align-last: center;
+}
+
+img:hover {
+  content: url(https://urbancityradio.org/wp-content/uploads/2020/07/spotify-logo-1920x1080_fouoik.jpg);
+}
+
+p:hover {
+  background-color: transparent;
+  color: #000000;
+  transition: all 0.7s ease-in-out;
+}
+
+h1:hover {
+  background-color: transparent;
+  color: #000000;
+  transition: all 0.7s ease-in-out;
+}
+
+h3:hover {
+  background-color: transparent;
+  color: #000000;
+  transition: all 0.7s ease-in-out;
+}
+
+.kerim2 {
+  width: 200px;
+  display: inline-block;
+}

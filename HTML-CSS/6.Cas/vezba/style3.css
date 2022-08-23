@@ -1,0 +1,16 @@
+.kerim {
+  height: 400px;
+  width: 500px;
+  background-color: aquamarine;
+}
+
+.kerim h2 {
+  color: brown;
+}
+
+.main {
+  color: darkblue;
+  text-align: center;
+  overflow: auto;
+  font-size: 20px;
+}

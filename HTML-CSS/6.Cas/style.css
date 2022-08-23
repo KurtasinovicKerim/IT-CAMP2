@@ -1,0 +1,22 @@
+h1 {
+  color: darkred;
+}
+
+main h1 {
+  color: rgb(18, 42, 113);
+}
+
+.main > p {
+  color: rgb(0, 136, 255);
+}
+
+/* + predstavlja prvi element nakon */
+/* Ako nekom html tagu dodelimo classu i id i primenimo stilove koji nisu isti,prednost primene ima id u odnosu na klasu.*/
+
+div + p {
+  color: darkred;
+}
+
+#childdiv {
+  background-color: rgb(255, 127, 127);
+}
