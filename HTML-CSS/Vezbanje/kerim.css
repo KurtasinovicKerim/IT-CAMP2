@@ -1,0 +1,35 @@
+.kerim1 h1 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.kerim1 h3 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-style: oblique;
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+body {
+  background-color: #000000;
+}
+
+.kerim1 {
+  width: 400px;
+  height: 600px;
+  margin: 15px;
+  border: 3px solid #00b767;
+  margin: auto;
+  background-color: #00b767;
+}
+
+img {
+  height: 200px;
+  width: 400px;
+  border: 2px solid #00b767;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
