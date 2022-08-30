@@ -19,9 +19,10 @@ body {
 img {
   width: 407px;
   height: 200px;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  margin-left: -2px;
 }
 
 .kerim h3 {
@@ -124,4 +125,14 @@ p:hover {
 #ikonica-za-telefon:hover {
   color: #ff8c00;
   transition: all 0.7s ease-in-out;
+}
+
+.kerim:nth-of-type(2) {
+  width: 407px;
+  height: 595px;
+  margin: auto;
+  border: 2px solid #ffffff;
+  background-color: #0026ff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
