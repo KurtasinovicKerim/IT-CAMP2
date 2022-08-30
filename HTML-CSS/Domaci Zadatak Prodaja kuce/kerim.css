@@ -7,21 +7,21 @@ body {
 }
 
 .kerim {
-  width: 400px;
-  height: 645px;
+  width: 407px;
+  height: 595px;
   margin: auto;
   border: 2px solid #ffffff;
   background-color: #282a35;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 img {
-  width: 400px;
+  width: 407px;
   height: 200px;
   border: 1px solid #ffffff;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .kerim h3 {
@@ -37,7 +37,7 @@ img {
 }
 
 .kerimspan1 {
-  color: #ffff00;
+  color: #ff8c00;
   font-size: medium;
 }
 
@@ -47,7 +47,7 @@ img {
 }
 
 .kerimspan2 {
-  color: #ffff00;
+  color: #ff8c00;
   font-size: medium;
 }
 
@@ -57,7 +57,7 @@ img {
 }
 
 .kerimspan3 {
-  color: #ffff00;
+  color: #ff8c00;
   font-size: medium;
 }
 
@@ -67,7 +67,7 @@ img {
 }
 
 .kerimspan4 {
-  color: #ffff00;
+  color: #ff8c00;
   font-size: medium;
 }
 
@@ -77,7 +77,7 @@ img {
 }
 
 .kerimspan5 {
-  color: #ffff00;
+  color: #ff8c00;
   font-size: medium;
 }
 
@@ -87,7 +87,7 @@ img {
 }
 
 .kerimspan6 {
-  color: #ffff00;
+  color: #ff8c00;
   font-size: medium;
 }
 
@@ -104,4 +104,24 @@ img {
 
 span {
   font-style: italic;
+}
+
+span:hover {
+  transition: all 0.7s ease-in-out;
+  color: #00ffff;
+}
+
+h3:hover {
+  transition: all 0.7s ease-in-out;
+  color: #ff8c00;
+}
+
+p:hover {
+  color: #ff8c00;
+  transition: all 0.7s ease-in-out;
+}
+
+#ikonica-za-telefon:hover {
+  color: #ff8c00;
+  transition: all 0.7s ease-in-out;
 }
