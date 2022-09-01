@@ -1,0 +1,160 @@
+/* Font for Paragraph*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* Font for Header Span */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fredoka+One&display=swap');
+
+* {
+    margin: 1;
+}
+
+body {
+    background-image: url(https://cutewallpaper.org/21/coding-wallpaper/Coding-Wallpapers-79-background-pictures-.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.header {
+    width: 500px;
+    height: 700px;
+    margin-left: 10px;
+    color: #F5FCFF;
+    background-color: #444141a9;
+    position: fixed;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.header span {
+    color: #ffc400;
+    padding: 5px;
+    font-style: italic;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.header p {
+    padding: 7px;
+    color: #ffffff;
+    font-family: 'Bree Serif', serif;
+    text-align: justify;
+
+}
+
+.html-logo {
+    width: 500px;
+    height: 200px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.strelica-desno {
+    width: 450px;
+    height: 100px;
+}
+
+p:hover {
+    color: #ffc400;
+    transition: all 0.8s ease-in-out;
+}
+
+span:hover {
+    color: #ffffff;
+    transition: all 0.8s ease-in-out;
+}
+
+
+/* Next card */
+
+
+.kartica2 {
+    width: 500px;
+    height: 700px;
+    margin-left: 1400px;
+    color: #F5FCFF;
+    background-color: #444141a9;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.css-logo {
+    width: 500px;
+    height: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.kartica2 span {
+    color: #00d9ff;
+    padding: 5px;
+    font-style: italic;
+    font-family: 'Fredoka One', cursive;
+}
+
+.kartica2 p {
+    padding: 7px;
+    color: #ffffff;
+    font-family: 'Bree Serif', serif;
+    text-align: justify;
+}
+
+.kerim {
+    color: #00d9ff;
+    margin-left: 250px;
+}
+
+/* Font za Naslov HTML-CSS Definition */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.naslov-1 {
+    color: white;
+    text-align: center;
+    height: -5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    font-style: italic;
+} 
+
+.p-kartica2:hover {
+    color: #00d9ff;
+    transition: all 0.8s ease-in-out;
+}
+
+.span-kartica2:hover {
+    color: #ffffff;
+    transition: all 0.8s ease-in-out;
+}
+
+.kartica2-naslov-p:hover {
+    color: #00d9ff;
+    transition: all 0.8s ease-in-out;
+}
+
+.kerim:hover {
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
+.creator_kerim {
+    color: white;
+    text-align: center;
+    height: -5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+.creator_kerim:hover {
+    color: #000000;
+    transition: all 0.7s ease-in-out;
+}
+
+.naslov-1:hover {
+    color: #000000;
+    border: 10px solid black;
+    transition: all 0.7s ease-in-out;
+}
