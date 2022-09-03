@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <title>Hanan Market-Ulogujte se</title>
+  </head>
+  <body>
+    <header class="naslov-forme">Hanan Market Register</header>
+    <form class="hanan-registracija" action="./web.html" align="center">
+      <label for="username">Ime:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Ime"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="email">E-adresa:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="E-adresa"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="country">Drzava:</label>
+      <select name="country" id="country" required>
+        <option value="Serbia">Serbia</option>
+        <option value="Germany">Germany</option>
+        <option value="Australia">Australia</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="pass">Lozinka:</label>
+      <input
+        type="password"
+        name="pass"
+        id="pass"
+        placeholder="Lozinka"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="birthdate">Datum Rođenja:</label>
+      <input
+        type="date"
+        name="birthdate"
+        id="birthdate"
+        placeholder="Datum Rođenja"
+        required
+        min="1920-01-01"
+        max="2014-01-01"
+      />
+      <br />
+      <br />
+
+      <label for="age">Godine:</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        min="8"
+        max="100"
+        required
+        placeholder="Godine"
+        step="2"
+      />
+      <br />
+      <br />
+
+      Pol: <br />
+      <label for="man">M</label>
+      <input type="radio" name="gender" id="man" value="M" required />
+      <label for="women">Ž</label>
+      <input type="radio" name="gender" id="women" value="Ž" required /> <br />
+      <br />
+
+      Prihvatate li uslove korišćenja sajta: <br />
+
+      <label for="prihvatam">Da</label>
+      <input type="checkbox" name="prihvatam" id="prihvatam" checked required />
+      <br />
+
+      <label for="neprihvatam">Ne</label>
+      <input type="checkbox" name="neprihvatam" id="neprihvatam" /> <br />
+
+      <h5>
+        <small>Ako kliknete na dugme registrujte se,prihvata nase uslove</small>
+      </h5>
+      <h5><small>Politiku privatnosti i Politiku o kolacicima.</small></h5>
+      <a href="https://www.facebook.com/legal/terms/update" target="_blank">
+        <img src="./potvrda.png" width="35px" height="39px" />
+      </a>
+      <br />
+
+      <button type="reset"><strong>Resetirajte</strong></button>
+      <button type="submit"><strong>Registrujte se</strong></button>
+    </form>
+  </body>
+</html>
