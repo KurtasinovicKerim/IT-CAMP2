@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+/* Font slova */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Secular One", sans-serif;
+  /* font-size: 0.6cm;  */
+  font-size: 16px;
+  /*font-size: 6mm;*/
+}
+
+.main {
+  width: 90%;
+  height: 80vh;
+  /*height: 30pc;*/
+  /*width: 10in;*/
+  margin: auto;
+  /*height: 30pc;*/
+  background-color: #7fffd4;
+  font-size: 2em;
+}
+
+.child {
+  background-color: #ff7f50;
+  font-size: 1.2em;
+  width: 50%;
+}
+
+/* Absolutne velicine: */
+/* cm - centimetre */
+/* mm- milimetre  */
+/* in - inches  (1 in=96px) */
+/* px - pixeli */
+/* pt - points- slican pixelu  */
+/* pc - picas (1 pc = 12 pt)
+
+
+
+/* Relativne velicine */
+/* em - Relativan u odnosu na font-size od parent elementa */
+/* rem - Relativan u odnosu na font-size od body elementa- ne nasledjuje velicinu od svog roditelja  */
+/* vw - viewport od width - Relativna u odnosu na sirinu ekrana  */
+/* vh - viewport od height - Relativna u odnosu na visinu ekrana  */
+/* vmin - viewport od min - Relativna 1% u odnosu na manji deo  (sirina ili visina) */
+/* vmax - viewport od max - Relativna 1% u odnosu na veci deo (sirina ili visina)  */
+/* % - Relativan u odnosu na parent elementa */

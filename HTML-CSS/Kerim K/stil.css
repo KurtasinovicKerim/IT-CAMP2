@@ -70,5 +70,11 @@
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-size: moze i po pixelima*/
+  /* background-size: 100% jedna vrednost predstavlja sirinu */
+  /* druga vrednost predstavlja visinu*/
   background-image: url(https://www.adobe.com/express/create/background/media_1f567ece896acb3fa96b8f7d730a9a236727c1c88.jpeg?width=400&format=jpeg&optimize=medium);
+  /* background-image: url; mozemo imati vise pozadina od jedne    */
+  background-size: 100% 50%, 100% 100%;
+  /* background size mozemo koristiti za vise slika od jedne,druga vrednost */
 }
