@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 50%;
+  height: 400px;
+  float: right;
+  border: 5px solid red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.kesha {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid red;
+  color: red;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.first {
+  width: 40%;
+  height: 55vh;
+  background-color: aquamarine;
+  clear: both;
+}
+
+.second {
+  width: 40%;
+  height: 40vh;
+  float: right;
+  background-color: blueviolet;
+}
