@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #e79600;
+  background-color: #cccccc;
 }
 
 .header-1 {
@@ -76,7 +76,7 @@ body {
   font-family: "Suez One", serif;
   width: 20%;
   height: 50%;
-  border: 5px solid #151562;
+  border: 5px solid #000000;
   text-align: center;
   padding: 5px;
 }
@@ -98,4 +98,53 @@ body {
 
 .header-1 a:active {
   color: #000000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+
+.glavna-strana {
+  font-family: "Crete Round", serif;
+  float: left;
+  margin-top: 10rem;
+  margin-left: 20%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+.facebook-h3 {
+  color: #0000ff;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Crete Round", serif;
+  font-family: "Acme", sans-serif;
+}
+
+.facebook-h4 {
+  color: rgb(0, 0, 0);
+  font-family: "Crete Round", serif;
+}
+
+.login-forma {
+  float: right;
+  margin-top: 10rem;
+  margin-right: 20%;
+}
+
+input {
+  text-transform: capitalize;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  color: white;
+  background-color: rgb(0, 2, 128);
+  height: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(34, 125, 36);
+  transition: all 0.7s ease-in-out;
 }
