@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -117,6 +118,7 @@ body {
   font-weight: bold;
   font-family: "Crete Round", serif;
   font-family: "Acme", sans-serif;
+  padding: 1rem;
 }
 
 .facebook-h4 {
