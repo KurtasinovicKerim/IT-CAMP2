@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Basic", sans-serif;
+}
+
+.main {
+  margin: 2rem auto;
+  width: 95%;
+  height: 250vh;
+  background-color: #3f3f3f;
+  position: relative;
+}
+
+.box1 {
+  width: 120px;
+  height: 120px;
+  background-color: green;
+  color: white;
+  /*position: static; defaultna vrednost kod position static */
+  /*position: relative; pomaze nam kod pomeranja stvari na nasoj web stranici  */
+  position: relative;
+  top: 0px;
+  left: 50%;
+  /* Mozemo koristiti 2 promene */
+  /*bottom: 30px; -  */
+  /*right: 160px; -  */
+}
+
+.box2 {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(204, 0, 255);
+  color: white;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.box3 {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(0, 255, 204);
+  color: white;
+  position: fixed;
+  top: 50px;
+  left: 150px;
+}
+
+.box4 {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  position: sticky;
+  top: 50px;
+  left: 50px;
+  z-index: 10;
+}
+
+.box5 {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: relative;
+  z-index: 20;
+}
+
+/* Relative: */
+/* Relative ostavlja rezervisan prostor na kom se nalazio (tu se nece automatski naci sledeci element)*/
+/* Dobijamo mogucnost pomeranja elementa (sa svih strana) u odnosu na parent element. */
+
+/* Absolute : */
+/* Absolute ne cuva prostor na kom se nalazio (tu ce se automatski naci element ispod onog na kom je position absolute)*/
+/* Parent element mora imati position != razlicit od stacic kako bi pomeranje bilo relativno u odnosu na njega a ne na celu stranicu */
+/* Absolute odma prepusta svoje mesto sledecemo kontejneru */
+
+/* Fixed : */
+/* Fixed ne cuva prostor na kom se nalazio (tu ce se automatski naci sledeci element ispod onog na kom je position absoulte)*/
+
+/* Sticky : */
+/* Sticky cuva prostor na kom se nalazio */
+/* Dobijamo mogucnost pomeranja elementa (sa svih strana) u trenutno postavljeni element. */

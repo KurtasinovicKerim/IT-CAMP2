@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 30%;
+  height: 80vh;
+  background-color: yellow;
+}
+
+.box1 {
+  background-color: rgb(0, 191, 255);
+  width: 120px;
+  height: 120px;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+  left: 110px;
+}
+
+.box2 {
+  background-color: purple;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 150px;
+  z-index: 10;
+}
+
+.box3 {
+  background-color: red;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 200px;
+  bottom: 30px;
+}
